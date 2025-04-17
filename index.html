@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Faturamento Healthlab</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" type="imagex/png" href="./css/logo96px.png">
+
+    <link rel="stylesheet" type="text/css"   href="./css/style.css">
+</head>
+
+<body>
+    <!-- Secao para definir a primeira parte do site, contendo o Iframe do gráfico e informações sobre o BI -->
+    <section class="Primeira-Parte">
+        <!-- Div com o titulo e o Iframe -->
+        <div class="Titulo-Dash">
+            <h1>Dashboard Faturamento Healthlab</h1>
+            <!-- Iframe do BI, gerado pelo Power BI web -->
+            <!-- <iframe title="Dashboard Faturamento Healthlab" width="1203" height="662" src="https://app.powerbi.com/view?r=eyJrIjoiNDhlYTgxNGQtNjA0MS00YzQxLWEwNTgtMDY2Njg3ZGU5YmIxIiwidCI6Ijc4NzhkMmY1LWU3YWMtNDE0OS1hNGYyLTliMjhkOWM0YTMzZSJ9" frameborder="0" allowFullScreen="true"></iframe> -->
+            <div class="Responsive-iframe-container">
+                <iframe 
+                    title="Dashboard Faturamento Healthlab" 
+                    src="https://app.powerbi.com/view?r=eyJrIjoiNDhlYTgxNGQtNjA0MS00YzQxLWEwNTgtMDY2Njg3ZGU5YmIxIiwidCI6Ijc4NzhkMmY1LWU3YWMtNDE0OS1hNGYyLTliMjhkOWM0YTMzZSJ9" 
+                    allowFullScreen="true">
+                </iframe>
+            </div>
+        </div>
+        <!-- Div como detalhamento do BI -->
+        <div class="Detalhes-Dash">
+            <p class="Detalhes-Paragrafo">
+                Projeto de dashboard desenvolvido no Power BI utilizando um design criado no Figma, focando nas cores da empresa 
+                e na experiência do usuário. Com dados de uma empresa fictícia para identificar:
+                <!-- Lista de Itens mapeados pelo BI -->
+                <ul class="Lista-paragrafo">
+                    <li class="Lista-item">Faturamento total</li>
+                    <li class="Lista-item">Quantidade total de atendimentos</li>
+                    <li class="Lista-item">Quantidade total de pacientes</li>
+                    <li class="Lista-item">Valor da meta Anual</li>
+                    <li class="Lista-item">Faturamento mensal e meta</li>
+                    <li class="Lista-item">Quantidade de Atendimento por dia e hora</li>
+                </ul>
+            </p>
+            <!-- Detalhes sobre o projeto de BI -->
+            <p class="Detalhes-paragrafo2">O projeto de dashboards sempre visa simplificar e agilizar as tomadas de decisões. O objetivo desse BI de Faturamento Healthlab
+                é facilitar a identificação de informações como Faturamento Anual, Mensal, por convênio e procedimento; Quantidade de atendimento e de pacientes Anual e Mensal; Quantidade de atendimento por dia da semana e hora.
+                 Os pontos listados foram todos atendidos e simplificado por meio de diversos gráficos, facilitando a análise para os gestores.
+            </p>
+        </div>
+    </section>
+    <!-- Secao para explicar sobre o BI -->
+    <section class="Segunda-Parte">
+        <!-- Div com a  explicacao sobre o BI, foto do Explicação funcionando-->
+        <div class="Explicacao-Dash">
+            <h2 class="Titulo-Explicacao">Explicação Primeira Aba</h2>
+            <!-- Foto do Explicação em execucao -->
+            <img src="./assets/Dash healthlab.png" alt="Exemplo de Explicação no Dash">
+            <!-- Detalhes sobre o Explicação -->
+            <p class="Explicacao-ParagrafoExplicação">Nessa aba foi adicionado gráficos com as informações sobre as Faturamento, Meta, Atendimento e Clientes. Adicionado também 
+                gráficos co o faturamento mensal, por convênio e procedimento; Gráfico com a quantidade de atendimento por dia e hora. <br><br>
+                </ul>
+            </p>
+        </div>
+
+        <!-- Div com a  explicacao sobre o BI, foto do Explicação funcionando-->
+        <div class="Explicacao-Dash">
+            <h2 class="Titulo-Explicacao">Explicação Segunda Aba</h2>
+            <!-- Foto do Explicação em execucao -->
+            <img src="./assets/Analitico.png" alt="Exemplo de Explicação no Dash">
+            <!-- Detalhes sobre o Explicação -->
+            <p class="Explicacao-ParagrafoExplicação">Nessa aba foi adicionado gráficos com as informações em uma tabela de analítico para facilitar possivel verificação nos dados caso preciso. <br><br>
+            </p>
+        </div>
+        
+        <!-- Div com a finalização do site -->
+        <div class="Finalizacao">
+            <p class="Finalizacao-Paragrafo">Com essa apresentação, é possível alinhar precisamente os dados e facilitar a visualização de problemas, ajudando assim a descobrir se o Faturamento
+                está dentro do esperado, qual a quantidade de atendimento e pacientes.
+            </p>
+
+        </div>
+    </section>
+</body>
+</html>
